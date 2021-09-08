@@ -1,0 +1,112 @@
+/* About Section */
+.main {
+    background-color: #000000;
+    padding: 10rem 0;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 90%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main__content {
+    color: #fff;
+    width: 100%;
+}
+
+.main__content h1 {
+    font-size: 2rem;
+    background-color: #2193b0;
+    background-image: linear-gradient(to top, #6dd5ed 0%, #2193b0 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.main__content p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.main__img--card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#card-2 {
+    background: #ff512f;
+    background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
+    background: linear-gradient(to right, #dd2476, #ff512f);
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 1100px) {
+    .main__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90%;
+    }
+
+    .main__img--container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__img--card {
+        height: 425px;
+        width: 425px;
+    }
+
+    .main__content {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .main__content h1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    .main__content p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main__img--card {
+        width: 250px;
+        height: 250px;
+    }
+
+    .main__content h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .main__content p {
+        margin-top: 2rem;
+    }
+}
