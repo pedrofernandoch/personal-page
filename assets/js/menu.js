@@ -29,12 +29,12 @@ const highlightMenu = () => {
         homeMenu.classList.remove('highlight');
         timelineMenu.classList.remove('highlight');
         return;
-    } else if (window.innerWidth > 960 && scrollPos < 2345) {
+    } else if (window.innerWidth > 960 && scrollPos < 3000) {
         timelineMenu.classList.add('highlight');
         aboutMenu.classList.remove('highlight');
         skillsMenu.classList.remove('highlight');
         return;
-    } else if (window.innerWidth > 960 && scrollPos < 3280) {
+    } else if (window.innerWidth > 960 && scrollPos < 3600) {
         skillsMenu.classList.add('highlight');
         timelineMenu.classList.remove('highlight');
         return;
