@@ -39,6 +39,7 @@
     margin-top: 1rem;
     font-size: 1.2rem;
     font-weight: 500;
+    z-index: 1;
 }
 
 .main__img--card {
@@ -49,12 +50,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-#card-2 {
-    background: #ff512f;
-    background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
-    background: linear-gradient(to right, #dd2476, #ff512f);
+    position: relative;
+    z-index: 1;
 }
 
 /* Mobile Responsive */
