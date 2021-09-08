@@ -1,0 +1,33 @@
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    color: inherit;
+}
+
+.bar {
+    width: 100%;
+    height: 35px;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+
+.bar-1 {
+    width: 80%;
+}
+
+.bar-inner {
+    width: 0;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 5px 0 0 5px;
+}
+
+.bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
