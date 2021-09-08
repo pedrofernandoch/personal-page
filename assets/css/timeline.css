@@ -72,28 +72,28 @@ img {
     --heading-line-height: 1.2
 }
 
-body {
+body .timeline {
     font-size: 1em;
     font-size: var(--text-base-size, 1em);
     font-family: 'Droid Serif', serif;
     font-family: var(--font-primary, sans-serif);
     color: hsl(240, 4%, 20%);
-    color: var(--color-contrast-high, #313135)
+    color: var(--color-contrast-high, #313135);
 }
 
-h2 {
+.timeline h2 {
     color: hsl(240, 8%, 12%);
     color: var(--color-contrast-higher, #1c1c21);
     line-height: 1.2;
     line-height: var(--heading-line-height, 1.2)
 }
 
-.text-xxxl {
+.timeline .text-xxxl {
     font-size: 2.48832em;
     font-size: var(--text-xxxl, 2.488em)
 }
 
-h2,
+.timeline h2,
 .text-xl {
     font-size: 1.728em;
     font-size: var(--text-xl, 1.728em)
